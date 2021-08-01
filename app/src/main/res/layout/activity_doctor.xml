@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/tools">
+
+    <include layout="@layout/base_toolbar_with_refresh_layout" />
+
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/doctor_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/icon_doctor"
+        app:backgroundTint="@color/colorOrange" />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/doctor_eval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/doc_eval"
+        app:backgroundTint="@color/colorBlue" />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

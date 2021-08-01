@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    android:background="@drawable/bg_click"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/item_doctor_eval_siv_logo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="20dp"
+            tools:src="@drawable/doctor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_doctor_eval_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0e0d0d"
+                android:textSize="17sp"
+                tools:text="名字" />
+
+            <TextView
+                android:id="@+id/item_doctor_eval_tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#737373"
+                tools:text="名字" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/base_div_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+
+</LinearLayout>

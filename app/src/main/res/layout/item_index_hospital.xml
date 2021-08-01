@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/item_index_hospital_siv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:alpha="0.2"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start">
+
+            <TextView
+                android:id="@+id/item_index_hospital_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="#0a0707"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="张三甲等医院" />
+
+            <TextView
+                android:id="@+id/item_index_hospital_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0d1b4b"
+                android:textSize="15sp"
+                tools:text="2018-05-30" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp">
+
+            <ImageView
+                android:id="@+id/item_index_hospital_iv_place"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_place" />
+
+
+            <TextView
+                android:id="@+id/item_index_hospital_tv_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#810b05"
+                android:textSize="15sp"
+                tools:text="乐山坚信中路" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_introduce" />
+
+            <TextView
+                android:id="@+id/item_index_hospital_tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="7"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                tools:text="乐山坚信中路 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/base_div_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp" />
+
+</android.support.design.widget.CoordinatorLayout>

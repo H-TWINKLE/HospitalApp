@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">医疗管理系统</string>
+
+    <!--api key-->
+    <string name="BMOB_APP_KEY">a6b5c8f2bc82c0129c1efceb81c91899</string>
+    <string name="BMOB_MASTER_KEY">441c7625f35dc15289fb430cce84f67e</string>
+    <string name="BMOB_REST_KEY">ffa211710f9cbd01a84dc717f75374f4</string>
+
+    <!--view load more-->
+    <string name="brvah_loading">正在加载</string>
+    <string name="brvah_load_failed">加载失败</string>
+    <string name="brvah_load_end">我是有底线的</string>
+
+    <string name="input_tel">手机号码</string>
+    <string name="input_pass">请输入密码</string>
+
+    <string name="login">登录</string>
+    <string name="register">新用户注册</string>
+    <string name="password">密码</string>
+    <string name="account">账号</string>
+    <string name="name">姓名</string>
+    <string name="email">邮箱</string>
+    <string name="identity">身份证</string>
+    <string name="number">手机号</string>
+
+
+    <string name="pass">请输入密码</string>
+    <string name="phoneemail">手机号/邮箱</string>
+    <string name="retrieve">忘记密码</string>
+    <string name="title">我是标题</string>
+    <string name="register_title">注册</string>
+    <string name="code">请输入验证码</string>
+    <string name="check">验证</string>
+    <string name="email_check">激活邮箱</string>
+    <string name="register_ok">注册成功</string>
+    <string name="info">个人信息</string>
+    <string name="login_out">注销</string>
+    <string name="form">我的挂号信息</string>
+
+    <string name="prompt_tel">请输入电话号码</string>
+    <string name="sending_code">正在发送验证码</string>
+    <string name="prompt_code">请输入验证码</string>
+    <string name="send_code">发送验证码</string>
+    <string name="return_main">回到主页</string>
+
+
+    <string name="index_hospital">医院</string>
+    <string name="functional">功能</string>
+    <string name="info_main">消息</string>
+    <string name="input">请输入意见…</string>
+    <string name="confirm">确定</string>
+    <string name="hospital">按医院</string>
+    <string name="classroom">按科室</string>
+    <string name="disease">按疾病</string>
+    <string name="center">帮助中心</string>
+    <string name="conventional">常见科室</string>
+    <string name="introduce">介绍</string>
+    <string name="rank">我是等级</string>
+    <string name="category">我是类别</string>
+    <string name="definition">我是名称</string>
+    <string name="dummy_button">跳过</string>
+    <string name="title_activity_feedback2">FeedbackActivity2</string>
+
+    <!--function-->
+    <string name="func_info">个人信息</string>
+
+    <string name="func_guahao">我的挂号</string>
+    <string name="func_fankui">意见反馈</string>
+    <string name="func_gonggao">公告</string>
+    <string name="func_jiuzheng">就诊情况</string>
+    <string name="func_huifu">智能回复</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">下一步</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="progress">正在加载</string>
+    <string name="guahao_progress">挂号进度</string>
+    <string name="doctor">医生</string>
+    <string name="department">科室</string>
+    <string name="title_activity_opinion">OPinionActivity</string>
+    <string name="replay">回复</string>
+    <string name="time">时间</string>
+    <string name="feedback_content">反馈内容</string>
+    <string name="seek_doctor">就诊医生</string>
+    <string name="seek_time">就诊时间</string>
+    <string name="seek_progress">处理进度</string>
+    <string name="seek_content">处理内容</string>
+    <string name="input_question">请输入您的问题</string>
+    <string name="send">发送</string>
+    <string name="news">动态</string>
+    <string name="department_name">科室</string>
+    <string name="auto">简介</string>
+    <string name="eval_">评价</string>
+    <string name="place">位置</string>
+    <string name="skip">跳过</string>
+    <string name="repass">再次输入密码</string>
+    <string name="_title">标题</string>
+    <string name="input_re_pass">请再次输入密码</string>
+    <string name="modify_pass">修改密码</string>
+    <string name="apply">提交</string>
+    <string name="good_doctor">名师</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_hospital"
+        android:icon="@drawable/ic_business_black_36dp"
+        android:title="@string/index_hospital" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/mess"
+        android:title="@string/news" />
+
+
+    <item
+        android:id="@+id/navigation_func"
+        android:icon="@drawable/func"
+        android:title="@string/functional" />
+
+
+</menu>
